@@ -67,8 +67,8 @@ def test_text_analyzer_returns_counts_and_top_words() -> None:
         "Agent tools help agents. Tools make agents useful!"
     )
     assert result["top_words"] == [
-        {"word": "agents", "count": 2},
         {"word": "tools", "count": 2},
+        {"word": "agents", "count": 2},
     ]
 
 
